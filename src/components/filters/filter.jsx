@@ -4,7 +4,7 @@ import { Input, Button } from 'antd';
 import useFilter from '../../hooks/useFilter';
 
 const Filters = ({messageApi}) => {
-    console.log("el coso", useFilter)
+    
     const { 
         setSearchType,
         searchByFilters
