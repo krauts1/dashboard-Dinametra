@@ -1,6 +1,6 @@
 # dashboard-Dinametra
 
-[https://krauts1.github.io/dashboard-Dinametra/](doc:Demo) 
+[Demo](https://krauts1.github.io/dashboard-Dinametra/)
 
 Dashboard con 3 graficas en las cuales se pueden observar los siguientes datos:
 
