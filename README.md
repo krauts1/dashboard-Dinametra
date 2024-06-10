@@ -1,5 +1,7 @@
 # dashboard-Dinametra
 
+[https://krauts1.github.io/dashboard-Dinametra/](doc:Demo) 
+
 Dashboard con 3 graficas en las cuales se pueden observar los siguientes datos:
 
 -Input para filtrar por nombre de artista
