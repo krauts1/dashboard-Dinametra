@@ -5,7 +5,6 @@ export default function useNewReleases() {
 
     const [state, ] = useContext(DashboardContext);
     const {
-        token,
         artistData
     } = state;
 
@@ -29,7 +28,7 @@ export default function useNewReleases() {
                 ]
             }
         })
-    , [artistData, token]);
+    , [artistData]);
 
     const radarChartData = useMemo(() => ({
         title: {

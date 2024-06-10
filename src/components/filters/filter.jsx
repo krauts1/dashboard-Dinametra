@@ -4,7 +4,7 @@ import { Input, Button } from 'antd';
 import useFilter from '../../hooks/useFilter';
 
 const Filters = ({messageApi}) => {
-
+    console.log("el coso", useFilter)
     const { 
         setSearchType,
         searchByFilters
@@ -15,10 +15,12 @@ const Filters = ({messageApi}) => {
                 onChange={(e) => 
                     setSearchType(e.target.value, 'artistName')
                 }
+                aria-label="Nombre del artista"
             />
             <Button type="primary"
                 icon={<SearchOutlined />}
                 onClick={searchByFilters}
+                aria-label="Buscar"
             >
                 Buscar
             </Button>
