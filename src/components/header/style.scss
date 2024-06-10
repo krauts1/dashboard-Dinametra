@@ -1,0 +1,22 @@
+$small: 300px;
+$medium: 800px;
+
+.container {
+    height: 100%;
+    background-color: #0F0E27;
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: start;
+    &_img {
+        margin: -20px;
+        width: 150px;
+        @media screen and (max-width: $medium) {
+            width: 120px;
+        }
+        @media screen and (max-width: $small) {
+            width: 100px;
+        }
+    }
+}

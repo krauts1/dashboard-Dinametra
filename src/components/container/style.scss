@@ -1,0 +1,28 @@
+$ssmall: 450px;
+$small: 550px;
+$medium: 900px;
+.general-container  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &_charts {
+        width: 80%;
+        .container-filter {
+            width: 40%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            display: grid;
+            grid: 32px / auto auto;
+            grid-gap: 10px;
+            @media screen and (max-width: $medium) {
+                width: 50%;
+            }
+            @media screen and (max-width: $small) {
+                width: 60%;
+            }
+            @media screen and (max-width: $ssmall) {
+                width: 100%;
+            }
+        }
+    }
+}
